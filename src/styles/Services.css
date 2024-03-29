@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Spectral:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* ------------------------------first section -------------------------------------- */
+.first-section {
+    margin-top: 0;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 25px;
+    height: 100vh;
+    text-align: center;
+    color: white;
+
+}
+
+.bg-img {
+    background-image: url('../images/services_1.png');
+    filter: blur(3px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-text,
+.sub-text {
+    position: relative;
+    top: 30%;
+    width: 50%;
+    margin: auto;
+}
+
+.provider {
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sub-text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+
+}
+
+/* ------------------------------second section -------------------------------------- */
+.our {
+    font-family: "Spectral", serif;
+    font-style: italic;
+    font-size: 35px;
+    padding-right: 20px
+}
+
+.our-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.our-services:before,
+.our-services:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: 50px 40px;
+}
+
+.our-services:before {
+    margin-right: 20px
+}
+
+.our-services:after {
+    margin-left: 20px
+}
+
+/* ------------------------------third section -------------------------------------- */
+.third-section {
+    margin-top: 0;
+    height: 70vh;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    background-color: white;
+    line-height: 3rem;
+
+}
+
+.bg-img2 {
+    background-image: url('../images/services_2.jpeg');
+    filter: blur(3px);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.bg-img2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.third-content {
+    position: relative;
+    top: 10%;
+    margin: auto 50px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+
+.aarga {
+    font-size: 40px;
+}
+
+/* --------------------------------------------fourth section ----------------------------------------------------- */
+.fourth-section {
+    height: 160vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-bar {
+    content: "";
+    position: absolute;
+    width: 20rem;
+    height: 130rem;
+    transform: rotate(45deg);
+    background-color: #E9E3D7;
+    left: 35%;
+    top: -50%;
+    z-index: -1;
+}
+
+.fourth-img {
+    position: absolute;
+    width: 420px;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.fourth-img img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.fourth-img1 {
+    left: 5%;
+    top: 25%;
+}
+
+.fourth-img2 {
+    top: 3%;
+    left: 36%;
+}
+
+.fourth-img3 {
+    left: 36%;
+    top: 51%;
+}
+
+.fourth-img4 {
+    top: 25%;
+    right: 5%;
+}
+
+/* --------------------------------------------fifth section ----------------------------------------------------- */
+.fifth-section {
+    background: #ECD4C4;
+    padding-bottom: 50px;
+
+}
+
+.fifth-section-img {
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 550px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.fifth-img img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.fifth-img1 {
+    left: 50%;
+}
+
+.fifth-img2 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    left: 30%;
+    width: 100%;
+    height: 550px;
+}
+
+.fifth-img-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 60px;
+    width: 50%;
+    margin: auto;
+    letter-spacing: 4px;
+}
+
+/* --------------------------------------------sixth section ----------------------------------------------------- */
+.sixth-bg-img {
+    background-image: url('../images/services_11.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.sixth-bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sixth-section {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    background-color: #E0D0BB;
+    height: fit-content;
+    margin: 50px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+.sixth-content {
+    margin: 30px;
+    width: 50%;
+
+}
+
+.sixth-heading {
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.sixth-para,
+.sixth-points {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+}
+
+.sixth-img {
+    width: 50%;
+    margin: 20px;
+}
+
+.sixth-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.points-list {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.points-list li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.points-list li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/leaf.png');
+    background-size: contain;
+}
+
+/* --------------------------------------------seventh section ----------------------------------------------------- */
+.seventh-section {
+    margin: 30px;
+    height: 50vh;
+    position: relative;
+    display: flex;
+}
+
+.seventh-sec-1 {
+    background-image: url('../images/services_12.png');
+    filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.seventh-sec-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.seventh-sec {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    width: 100%;
+
+}
+
+.seventh-sec-2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seventh-sec-2 button {
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    border: 0px;
+    width: 439px;
+    height: 46px;
+    border-radius: 24px;
+}
+
+.seventh-btn-1 {
+    background-color: #8E4F30;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.seventh-btn-2 {
+    background-color: transparent;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+
+.seventh-sec-3 {
+    position: relative;
+    height: 50vh;
+    width: 60%;
+}
+
+.seventh-sec-4-hard-blur {
+    background-image: url('../images/services_13.png');
+    filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 50vh;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.seventh-sec-4-hard-blur::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.seventh-sec-5 {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    bottom: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 2rem;
+}
+
+.provision {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+
+}
+
+.provision-list {
+    list-style-type: circle;
+    animation: slideFromLeft 0.5s ease forwards;
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.provision-list li::marker {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* -----------------------------------------ninth section---------------------------------------------------- */
+.ninth-section {
+    background: #C3A3791A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    box-shadow: -44px 44px 44px 0px #FFFFFF1A inset;
+    box-shadow: 44px -44px 44px 0px #947C5C1A inset;
+    margin-bottom: 50px;
+}
+
+.ninth-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 100px;
+    margin: 50px 20px;
+
+}
+
+.ninth-item div {
+    letter-spacing: 2px;
+}
+
+.ninth-item>div {
+    padding: 10px;
+}
+
+.bullet-point {
+    font-size: 10px;
+    margin-right: 10px;
+}

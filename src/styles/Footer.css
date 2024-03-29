@@ -1,0 +1,122 @@
+footer {
+    background-color: black;
+    color: white;
+    /* height: 50vh; */
+    margin-top: -50px;
+}
+
+.footer-logo-hr {
+    padding-top: 20px;
+}
+
+.footer-logo-hr img {
+    width: 15%;
+}
+
+.footer-section-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-section-main {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    margin: auto 30px;
+    font-size: 13px;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section-main h3 {
+    font-size: 25px;
+    font-family: "EB Garamond", serif;
+}
+
+.footer-contact-first-section {
+    line-height: 2rem;
+}
+.footer-contact-content {
+    letter-spacing: 1px;
+}
+
+.footer-icon {
+    font-size: 15px;
+}
+
+.footer-social-section {
+    font-family: "Spectral", serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-para {
+    text-align: center;
+}
+.footer-social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 20px;
+    margin-top: 20px;
+}
+.footer-social-icons div {
+    font-size: 25px;
+    text-align: center;
+    margin: auto 20px;
+    background-color: #252424;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-icons div a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.footer-social-icons div:hover a {
+    background-color: white; 
+    color: black;  
+}
+
+
+.footer-navigation-section {
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+.footer-navigation-section a{
+    
+    color: white; 
+    text-decoration: none;
+}
+.footer-quick-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copyright-line {
+    background-color: #0A0A0A;
+    font-family: "Spectral", serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
