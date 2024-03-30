@@ -530,3 +530,424 @@
     font-size: 10px;
     margin-right: 10px;
 }
+
+/* ---------------------------------------------media query tablet----------------------------------------------------- */
+@media (max-width: 1024px) {
+
+    /* ------------------first section------------------------ */
+    .main-text,
+    .sub-text {
+        top: 30%;
+        width: 90%;
+    }
+
+    /* ---------------------------third section------------------- */
+    .third-section {
+        height: fit-content;
+        font-size: 25px;
+        padding-bottom: 10px;
+
+    }
+
+    .bg-img2 {
+        height: 100%;
+    }
+
+    .third-content {
+        top: 2%;
+        margin: auto 10px;
+    }
+
+    .aarga {
+        font-size: 30px;
+    }
+
+    /* ---------------fourth section -----------------------------*/
+    .fourth-section {
+        height: 80vh;
+    }
+
+    .fourth-bar {
+        left: 0%;
+    }
+
+    .fourth-img {
+        width: 350px;
+        height: 400px;
+    }
+
+    .fourth-img1 {
+        top: 55%;
+        left: 2%;
+    }
+
+    .fourth-img2 {
+        top: 3%;
+        left: 2%;
+    }
+
+    .fourth-img3 {
+        left: 52%;
+        top: 3%;
+    }
+
+    .fourth-img4 {
+        top: 55%;
+        left: 52%;
+    }
+
+    /* -----------------fifth section -------------------------- */
+    .fifth-section-img {
+        flex-direction: column;
+    }
+
+    .fifth-img {
+        width: 600px;
+        height: 300px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .fifth-img-name {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    /* -----------------sixth-------------------------- */
+    .sixth-bg-img {
+        padding: 20px auto;
+    }
+
+    .sixth-section {
+        margin: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .sixth-content {
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .sixth-heading {
+        font-size: 35px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .sixth-para {
+        text-align: center;
+    }
+
+    .sixth-para,
+    .sixth-points {
+        margin: auto 10px;
+    }
+
+    .sixth-img {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .points-list {
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .points-list li {
+        margin: 20px;
+        padding-left: 40px;
+    }
+
+    /* -----------------seventh-------------------------- */
+    .seventh-section {
+        margin: 0px;
+        padding-top: 50px;
+        height: 60vh;
+        position: relative;
+        display: flex;
+    }
+
+    .seventh-sec {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .seventh-sec-2 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seventh-sec-2 button {
+        margin: 20px auto;
+        width: 300px;
+        height: 50px;
+    }
+
+    .seventh-sec-3 {
+        position: relative;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .seventh-sec-4-hard-blur {
+        background-image: none;
+    }
+
+    .seventh-sec-4-hard-blur::before {
+        display: none;
+    }
+
+    .seventh-sec-5 {
+        left: 0;
+        right: 0;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .provision {
+        font-size:35px;
+        text-align: center;
+    }
+
+    /* -----------------ninth-------------------------- */
+    .ninth-item {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px 0px;
+
+    }
+}
+
+
+
+/* ---------------------------------------------media query phone----------------------------------------------------- */
+@media (max-width: 767px) {
+
+    /* ------------------first section------------------------ */
+    .main-text,
+    .sub-text {
+        top: 30%;
+        width: 90%;
+    }
+
+    .sub-text {
+        letter-spacing: 2px;
+        line-height: 2rem;
+        margin-top: 30px;
+    }
+
+    /* ---------------------------second section------------------- */
+    .our {
+        padding-right: 10px
+    }
+
+    .our,
+    .our-services {
+        font-size: 20px;
+    }
+
+    .our-services:before,
+    .our-services:after {
+        margin: 40px 10px;
+    }
+
+    .our-services:before {
+        margin-right: 10px
+    }
+
+    .our-services:after {
+        margin-left: 10px
+    }
+
+    /* ---------------------------third section------------------- */
+    .third-section {
+        height: 70vh;
+        font-size: 20px;
+        padding-bottom: 0px;
+        line-height: 2.5rem;
+
+    }
+
+    .bg-img2 {
+        height: 100%;
+    }
+
+    .third-content {
+        top: 2%;
+        margin: auto 10px;
+    }
+
+    .aarga {
+        font-size: 30px;
+    }
+
+    /* ---------------fourth section -----------------------------*/
+    .fourth-section {
+        height: 70vh;
+    }
+
+    .fourth-bar {
+        left: 0%;
+    }
+
+    .fourth-img {
+        width: 180px;
+        height: 250px;
+    }
+
+    .fourth-img1 {
+        top: 50%;
+        left: 2%;
+    }
+
+    .fourth-img2 {
+        top: 3%;
+        left: 2%;
+    }
+
+    .fourth-img3 {
+        left: 52%;
+        top: 3%;
+    }
+
+    .fourth-img4 {
+        top: 50%;
+        left: 52%;
+    }
+
+    /* -----------------fifth section -------------------------- */
+    .fifth-section-img {
+        flex-direction: column;
+    }
+
+    .fifth-img {
+        width: 400px;
+        height: 250px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .fifth-img-name {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    /* -----------------sixth-------------------------- */
+    .sixth-bg-img {
+        padding: 20px auto;
+    }
+
+    .sixth-section {
+        margin: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .sixth-content {
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .sixth-heading {
+        font-size: 35px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .sixth-para {
+        text-align: center;
+    }
+
+    .sixth-para,
+    .sixth-points {
+        margin: auto 10px;
+    }
+
+    .sixth-img {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .points-list {
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .points-list li {
+        margin: 20px;
+        padding-left: 40px;
+    }
+
+    /* -----------------seventh-------------------------- */
+    .seventh-section {
+        margin: 0px;
+        padding-top: 50px;
+        height: 70vh;
+        position: relative;
+        display: flex;
+    }
+
+    .seventh-sec {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .seventh-sec-2 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seventh-sec-2 button {
+        margin: 20px auto;
+        width: 300px;
+        height: 50px;
+    }
+
+    .seventh-sec-3 {
+        position: relative;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .seventh-sec-4-hard-blur {
+        background-image: none;
+    }
+
+    .seventh-sec-4-hard-blur::before {
+        display: none;
+    }
+
+    .seventh-sec-5 {
+        margin: 20px;
+        right: 0;
+    }
+
+    .provision {
+        text-align: center;
+    }
+
+    /* -----------------ninth-------------------------- */
+    .ninth-item {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px 0px;
+
+    }
+
+
+
+
+}

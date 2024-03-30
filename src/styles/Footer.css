@@ -120,3 +120,29 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@media (max-width:1024px) {
+    .footer-section-parent {
+        flex-direction: column;
+    }
+    .footer-section-main {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer-logo-hr img {
+        width: 30%;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-section-parent {
+        flex-direction: column;
+    }
+    .footer-section-main {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer-logo-hr img {
+        width: 30%;
+    }
+}
