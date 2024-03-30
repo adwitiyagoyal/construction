@@ -1,15 +1,8 @@
 /* Existing styles */
-
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
 /* home page  MOBILE*/
 @media screen and (max-width:500px) {
     .home {
-        background-image: url('./assets/home_bg.png');
+        background-image: url('../images2/home_bg.png');
         background-size: cover;
         background-position: center;
         width: 100vw;
@@ -64,7 +57,7 @@ body {
 /* DESKTOP VIEW HOME */
 @media screen and (min-width:500px) {
     .home {
-        background-image: url('./assets/home_bg.png');
+        background-image: url('../images2/home_bg.png');
         background-size: cover;
         background-position: center;
         width: 100vw;
@@ -193,7 +186,7 @@ body {
     }
     
     .item1 {
-        background-image: url('./assets/item1.png');
+        background-image: url('../images2/item1.png');
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -212,7 +205,7 @@ body {
     }
     
     .item3 {
-        background-image: url('./assets/item3.png');
+        background-image: url('../images2/item3.png');
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 4;
@@ -230,7 +223,7 @@ body {
     }
     
     .item5 {
-        background-image: url('./assets/item5.png');
+        background-image: url('../images2/item5.png');
         grid-column-start: 5;
         grid-column-end: 7;
         grid-row-start: 3;
@@ -377,7 +370,7 @@ body {
     }
     
     .item1 {
-        background-image: url('./assets/item1.png');
+        background-image: url('../images2/item1.png');
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -394,7 +387,7 @@ body {
     }
     
     .item3 {
-        background-image: url('./assets/item3.png');
+        background-image: url('../images2/item3.png');
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 4;
@@ -411,7 +404,7 @@ body {
     }
     
     .item5 {
-        background-image: url('./assets/item5.png');
+        background-image: url('../images2/item5.png');
         grid-column-start: 5;
         grid-column-end: 8;
         grid-row-start: 3;
@@ -550,7 +543,7 @@ body {
     }
     
     .item6 {
-        background-image: url('./assets/item6.png');
+        background-image: url('../images2/item6.png');
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -558,7 +551,7 @@ body {
     }
     
     .item7 {
-        background-image: url('./assets/item7.png');
+        background-image: url('../images2/item7.png');
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -566,7 +559,7 @@ body {
     }
     
     .item8 {
-        background-image: url('./assets/item8.png');
+        background-image: url('../images2/item8.png');
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 2;
@@ -654,7 +647,7 @@ body {
     }
     
     .item6 {
-        background-image: url('./assets/item6.png');
+        background-image: url('../images2/item6.png');
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -662,7 +655,7 @@ body {
     }
     
     .item7 {
-        background-image: url('./assets/item7.png');
+        background-image: url('../images2/item7.png');
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -670,7 +663,7 @@ body {
     }
     
     .item8 {
-        background-image: url('./assets/item8.png');
+        background-image: url('../images2/item8.png');
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 2;
@@ -759,7 +752,7 @@ body {
         left: 4%;
         position: absolute;
         top: 13%;
-        background-image: url(./assets/last.png);
+        background-image: url('../images2/last.png');
         background-repeat: no-repeat;
         background-size:contain;
         left: 23%;
@@ -830,7 +823,7 @@ body {
     }
     .inner{
         height: 50%;
-        background-image: url(./assets/last.png);
+        background-image: url('../images2/last.png');
         width: 100%;
     }
 }
